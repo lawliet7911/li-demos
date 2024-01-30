@@ -1,0 +1,12 @@
+{
+  "name": "li-demos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "d:low": "cd low-code && npm run dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

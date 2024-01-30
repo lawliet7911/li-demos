@@ -1,0 +1,92 @@
+:root {
+  --font-size-small: 12px;
+  --font-size-normal: 14px;
+  --font-size-large: 16px;
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-bold: 500;
+  --font-weight-bolder: 700;
+  --color-gray-100: #f8f8f8;
+  --color-gray-200: #f2f2f2;
+  --color-gray-300: #e6e6e6;
+  --color-gray-400: #d9d9d9;
+  --color-gray-500: #ccc;
+  --color-gray-600: #b3b3b3;
+  --color-gray-700: #999;
+  --color-gray-800: #666;
+  --color-gray-900: #333;
+  --color-blue-100: #e6f7ff;
+  --color-blue-200: #bae7ff;
+  --color-blue-300: #91d5ff;
+  --color-blue-400: #69c0ff;
+  --color-blue-500: #40a9ff;
+  --color-blue-600: #6592b7;
+  --color-blue-700: #096dd9;
+  --color-blue-800: #0050b3;
+  --color-blue-900: #003a8c;
+  --color-white: #fff;
+  --color-black: var(--color-gray-900);
+  --color-primary: var(--color-blue-600);
+  --panel-width: 320px;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+button:hover {
+  border-color: #646cff;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.card {
+  padding: 2em;
+}
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+
+  a:hover {
+    color: #747bff;
+  }
+
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+@import url(./vars.scss);
